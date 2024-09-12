@@ -1,7 +1,6 @@
 import streamlit as st
 import pandas as pd
 import numpy as np
-import scipy
 from scipy import interpolate
 from PIL import Image
 
