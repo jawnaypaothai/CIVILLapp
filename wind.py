@@ -1,7 +1,8 @@
 import streamlit as st
 import pandas as pd
 import numpy as np
-from scipy import interpolate
+import scipy as sp
+from sp import interpolate
 from PIL import Image
 
 st.set_page_config(page_title='แรงลม มยผ',layout='wide',page_icon="🏗️")
