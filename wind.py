@@ -1,7 +1,8 @@
 import streamlit as st
 import pandas as pd
 import numpy as np
-pip install scipy
+import scipy
+st.info(f"SciPy version: {scipy.1.14.1}")
 from scipy import interpolate
 from PIL import Image
 
